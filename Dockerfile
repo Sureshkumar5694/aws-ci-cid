@@ -1,4 +1,4 @@
-FROM 381491939189.dkr.ecr.ap-south-1.amazonaws.com/node
+FROM 381491939189.dkr.ecr.ap-south-1.amazonaws.com/node:latest
 WORKDIR /app
 COPY ./package.json ./package-lock.json ./
 RUN npm install
