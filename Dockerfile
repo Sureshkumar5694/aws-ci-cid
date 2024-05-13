@@ -1,4 +1,4 @@
-FROM 381491939189.dkr.ecr.ap-south-1.amazonaws.com/node:latest
+FROM public.ecr.aws/docker/library/node:22-slim
 WORKDIR /app
 COPY . .
 RUN npm ci --only=production
